@@ -3,7 +3,7 @@ def task_1_2_1():
 
     eid_prefix = "D:TUpdaterController::SetUniqueParam(429): eid: "
     f = open("logs.txt")
-    for line in f.readlines()[::-1]:git config --global user.name "FIRST_NAME LAST_NAME"
+    for line in f.readlines()[::-1]:
         if line.startswith(eid_prefix, 9):
             mas.append(line)
             if len(mas) == 2:
