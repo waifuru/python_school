@@ -18,6 +18,14 @@ class FootballTeam:
 
 class FootballTeam2(FootballTeam):
 
+    def __init__(self, won, draw, lost, goals_scored, missed_goals)
+        super().__init__(won, draw, lost, goals_scored, missed_goals)
+        self.won = won
+        self.draw = draw
+        self.lost = lost
+        self.goals_scored = goals_scored
+        self.missed_goals = missed_goals
+
     def total(self):
         print(self.won + self.lost + self.draw)
 
