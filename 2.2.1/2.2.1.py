@@ -18,7 +18,7 @@ class FootballTeam:
 
 class FootballTeam2(FootballTeam):
 
-    def __init__(self, won, draw, lost, goals_scored, missed_goals)
+    def __init__(self, won, draw, lost, goals_scored, missed_goals):
         super().__init__(won, draw, lost, goals_scored, missed_goals)
         self.won = won
         self.draw = draw
