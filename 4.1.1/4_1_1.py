@@ -27,11 +27,11 @@ def transliterate(func):
 @transliterate
 def get_russian_text():
 
-    return "Привет, я русский текст в транслите!"
+    return "Привет, Я рУсСкИй теКсТ в транслите!"
 
 
 @transliterate
-def get_kek(capacity, a, b):
+def get_kek():
     return "Кек на русском"
 
 
